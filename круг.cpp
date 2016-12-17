@@ -2,17 +2,18 @@
 #include<conio.h>
 #include<stdio.h>
 using namespace std;
+const float pi = 3.14;
 class krug
 {
 public:
 	int b;
 	float gets()
 	{
-		return 3.14*(b*b);
+		return pi*(b*b);
 	}
 	float getp()
 	{
-		return 2 * 3.14*b;
+		return 2 * pi*b;
 	}
 };
 void main()
